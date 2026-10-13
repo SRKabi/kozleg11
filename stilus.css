@@ -2,3 +2,46 @@
     box-sizing: border-box;
 }
 
+#nagynav{
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nagynav ul{
+    display: flex;
+    gap: 6px;
+    list-style-type: none;
+}
+
+header{
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 15%;
+    padding: 19px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+#kisnav{
+    border: 2px solid green;
+}
+
+#kisnav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#kisnav ul li, a{
+    display: block;
+}
+
+img{
+    max-width: 50px;
+}
